@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'fa',
 
     /*
     |--------------------------------------------------------------------------
@@ -161,6 +161,10 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
+        Mckenziearts\Notify\LaravelNotifyServiceProvider::class,
+
+
 
         /*
          * Package Service Providers...
